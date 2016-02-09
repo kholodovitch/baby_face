@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "winforms", "winforms.csproj", "{D634AE1E-74E6-47F7-A881-21D98292F7D6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A532A019-43C8-42C0-ABFA-F79F3089117D} = {A532A019-43C8-42C0-ABFA-F79F3089117D}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core", "..\..\core\core.vcxproj", "{A532A019-43C8-42C0-ABFA-F79F3089117D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D634AE1E-74E6-47F7-A881-21D98292F7D6}.Debug|x86.ActiveCfg = Debug|x86
+		{D634AE1E-74E6-47F7-A881-21D98292F7D6}.Debug|x86.Build.0 = Debug|x86
+		{D634AE1E-74E6-47F7-A881-21D98292F7D6}.Release|x86.ActiveCfg = Release|x86
+		{D634AE1E-74E6-47F7-A881-21D98292F7D6}.Release|x86.Build.0 = Release|x86
+		{A532A019-43C8-42C0-ABFA-F79F3089117D}.Debug|x86.ActiveCfg = Debug|Win32
+		{A532A019-43C8-42C0-ABFA-F79F3089117D}.Debug|x86.Build.0 = Debug|Win32
+		{A532A019-43C8-42C0-ABFA-F79F3089117D}.Release|x86.ActiveCfg = Release|Win32
+		{A532A019-43C8-42C0-ABFA-F79F3089117D}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
