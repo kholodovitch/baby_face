@@ -6,7 +6,7 @@
 
 
 // This is an example of an exported variable
-CORE_API int ncore=0;
+CORE_API int ncore = 0;
 
 // This is an example of an exported function.
 CORE_API int fncore(void)
